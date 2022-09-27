@@ -8,7 +8,7 @@ Interacts with the ManageBac and OpenApply APIs, downloading data into a Google 
 Note that you'll need access to API manager:
 
 - Make a [copy of this spreadsheet](https://docs.google.com/spreadsheets/d/1Uc___fcVkp_QURp_9sMq3vFJSVncv2-ENwiZmVzz4bg/copy)
-- Click on "Tools" and go to "Script Editor"
+- Click on "Extensions" and go to "Apps Script"
 - Fill out the global variables in `Globals.gs` as appropriate
 - For OpenApply, in addition to the subdomain filled in `Globals`, also need to go to `manifest.json`, find the `urlFetchWhitelist` and edit the "subdomain" part of the string: `"https://subdomain.openapply.com/"` to your school's subdomain.
 
